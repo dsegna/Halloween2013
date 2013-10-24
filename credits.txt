@@ -1,0 +1,25 @@
+Assets
+------
+
+nuke.png
+created by : Stephen Challener
+obtained from:
+http://opengameart.org/content/evil-pumpkin-halloween-ff6-ish-styled-enemy-or-other
+License : CC-BY 3.0
+
+zombie.png
+created by : Clint Bellanger
+obtained from:
+http://opengameart.org/content/first-person-dungeon-crawl-art-pack
+License : CC-BY-SA 3.0
+
+crosshair.png
+created by : 
+obtained from:
+http://opengameart.org/content/crosshairs-and-reticles
+License : Public Domain
+
+bg.png
+obtained from:
+http://www.wallcoo.net/holiday/halloween_art/html/wallpaper20.html
+CANNOT BE USED FOR COMMERCIAL USE
