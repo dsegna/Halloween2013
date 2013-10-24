@@ -1,0 +1,49 @@
+<html>
+<head>
+     <script src="processing.js"></script>
+     <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+
+     <script>
+     var sketch;
+     var zombInterval=1000;
+     </script>
+</head>
+<body>
+	<script>
+	$(document).ready(function(){
+		$("#loseDiv").hide();
+		$("#winDiv").hide();
+		sketch = Processing.instances[0];
+
+	});
+	</script>
+	<h2>FSOSS2013</h2>
+	<canvas id="gameCanvas" data-processing-sources="main.pde"></canvas>
+	<p style="position:absolute;left:20px;top:60px;color:white;z-index:9;font-size:200%;"
+	 id="kills"> </p>
+	<p style="position:absolute;left:200px;top:60px;color:white;z-index:9;font-size:200%;"
+	 id="headshots"> </p>
+
+	<div id="loseDiv" style="width:1000px;height:800px;position:absolute;left:8px;top:73px;
+							background-image:url('assets/bg.png'); color:white;
+							font-size:200%;text-align:center;
+	"> 
+		<div style="margin-top:100px;">
+			You Lose! <br/>
+			<p>Total Kills: <span id="endKills"> </span></p>
+			<p>Total Headshots: <span id="endHeadshots"></span></p>
+			<input style="height:100px;width:150px;" type="button" onClick="sketch.restart()" value="Try Again"></input>
+		</div>
+	</div>
+	<div id="winDiv" style="width:1000px;height:800px;position:absolute;left:8px;top:73px;
+							background-image:url('assets/bg.png'); color:white;
+							font-size:200%;text-align:center;
+	"> 
+		<div style="margin-top:100px;">
+			You Killed All The Zombies! <br/>
+			<p>Total Headshots: <span id="winHeadshots"></span></p>
+			<input style="height:100px;width:150px;" type="button" onClick="sketch.restart()" value="Play Again"></input>
+		</div>
+	</div>
+</body>
+</html
